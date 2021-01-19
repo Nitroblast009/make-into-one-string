@@ -21,15 +21,14 @@ int main() {
     string output{""};
     std::cout << "You may now start entering your inputs (seperate each with <Enter>)..." << std::endl;
 
-    /*for(double i; i = 0; i++) {
+    for(double i =0; i < n; i++) {
         string next;
         std::cin >> next;
         output += next;
-    }*/
-    std::cin >> output;
+    }
 
     //print final output
-    std::cout << "Here is your final concatenated string: " << output;
+    std::cout << "Here is your final concatenated string: \"" << output << "\"";
 
     return 0;
 }
